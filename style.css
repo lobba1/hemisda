@@ -99,10 +99,10 @@ main {
 }
 
 .Elbil {
-/* Container holding the image and the text */ 
+  /* Container holding the image and the text */
   position: relative;
   text-align: center;
-  color:black;
+  color: black;
   position: absolute;
   background-color: rgb(15, 38, 165);
 }
@@ -113,10 +113,15 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 .EQ.text {
-background-color: cornflowerblue;
-
+  background-color: cornflowerblue;
 }
 
+.sportig {
+  width: 100vw;
+}
+
+.sportig img {
+  width: 100%;
+}
