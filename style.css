@@ -1,0 +1,122 @@
+/* Nav */
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 80px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+nav img {
+  height: 50px;
+}
+
+/* Main */
+main {
+  margin-top: auto;
+}
+
+.image-container {
+  display: flex;
+  width: 75%;
+  margin: 10px auto;
+}
+
+.image-container img {
+  width: 25%;
+  padding: 2px;
+}
+.image-container img:hover {
+  transform: scale(1.03);
+}
+.Cars:hover {
+  border-bottom: 3px solid white;
+}
+.input {
+  height: 20px;
+  width: 300px;
+  border: none;
+  margin-left: 33px;
+  outline: none;
+}
+
+.svg {
+  height: 20px;
+  margin-right: 50px !important;
+  color: black;
+}
+.search {
+  height: 24px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #015c76;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-radius: 15px;
+  background-color: white;
+}
+.Cars {
+  color: lightgray;
+}
+
+.KopLease {
+  display: grid;
+  place-items: center;
+  row-gap: 30px;
+  background-color: darkgray;
+  width: 50%;
+  margin: auto;
+  position: center;
+}
+
+.KopLease form {
+  padding: 60px;
+  display: grid;
+  gap: 15px;
+}
+
+.Elbil {
+/* Container holding the image and the text */ 
+  position: relative;
+  text-align: center;
+  color:black;
+  position: absolute;
+  background-color: rgb(15, 38, 165);
+}
+
+/* Centered text */
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.EQ.text {
+background-color: cornflowerblue;
+
+}
+
